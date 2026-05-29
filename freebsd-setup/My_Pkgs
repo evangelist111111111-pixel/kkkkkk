@@ -17,18 +17,18 @@ xdg-desktop-portal
 xdg-desktop-portal-hyprland
 xdg-user-dirs
 
-grim                    # screenshots
-slurp                   # region selection
-wf-recorder             # screen recording
-swww                    # wallpaper daemon
-mako                    # notifications
-waybar                  # status bar
-fuzzel                  # app launcher
-wlrctl                  # wlroots control
-wtype                   # keyboard input injection
-pamixer                 # volume control
-brightnessctl           # backlight control (T490 Fn keys)
-nwg-look                # GTK theme manager
+grim                   
+slurp                   
+wf-recorder             
+swww                    
+mako                   
+waybar                 
+fuzzel                  
+wlrctl                  
+wtype                   
+pamixer                 
+brightnessctl        
+nwg-look               
 
 foot                    
 
