@@ -1,0 +1,84 @@
+# My_Pkgs — adapted from Dieggho/FreeBSD_Backups
+# Intel GPU + Hyprland + Development focus
+# Install with: xargs pkg install -y < My_Pkgs
+
+# --- System base ---
+dbus
+doas
+seatd
+
+# --- Intel GPU (Kaby Lake and newer) ---
+drm-61-kmod
+gpu-firmware-intel-kmod-kabylake
+libva-intel-media-driver
+
+# --- Wayland / Hyprland stack ---
+hyprland
+hyprland-protocols
+hyprpicker
+wayland
+wayland-protocols
+xdg-desktop-portal
+xdg-desktop-portal-hyprland
+xdg-user-dirs
+
+# --- Hyprland utilities ---
+grim                    # screenshots
+slurp                   # region selection
+wf-recorder             # screen recording
+swww                    # wallpaper daemon
+mako                    # notifications
+waybar                  # status bar
+fuzzel                  # app launcher
+wlrctl                  # wlroots control
+wtype                   # keyboard input injection
+pamixer                 # volume control
+brightnessctl           # backlight control (T490 Fn keys)
+nwg-look                # GTK theme manager
+
+# --- Terminal & shell ---
+foot                    # lightweight Wayland terminal
+
+# --- Audio ---
+pulseaudio-module-sndio
+pavucontrol
+
+# --- File management ---
+pcmanfm
+ffmpegthumbnailer
+
+# --- Fonts ---
+nerd-fonts
+nerd-fonts-dejavusansmono
+
+# --- Dev tools ---
+git
+pkgconf
+python3
+gmake
+llvm
+neovim
+tmux
+curl
+wget
+jq
+fzf
+fd-find
+
+# --- Dev languages / runtimes (pick what you need) ---
+# node                  # Node.js
+# go                    # Go
+# rust                  # Rust (use rustup instead)
+# openjdk21             # Java
+
+# --- Browsers ---
+firefox
+
+# --- Misc utilities ---
+fastfetch
+htop
+unzip
+7-zip
+imv                     # image viewer
+mpv                     # video player
+galculator
